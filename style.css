@@ -49,6 +49,7 @@ body{
 }
 /* info-box  */
 .info-box{
+  display:none;
   width: 540px;
   background: white;
   border-radius: 5px;
@@ -123,4 +124,9 @@ body{
 
 .buttons button.quit{
   color: var(--dgreen); 
+}
+
+buttons button.quit:hover{
+  color: white; 
+ background: var(--dgreen);
 }
