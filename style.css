@@ -1,0 +1,60 @@
+/* imported google fonts Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+  margin:0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+body{
+  background:var(--lgreen);
+}
+
+.start-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%. -50%);
+  -webkit-transform: translate(-50%. -50%);
+  -moz-transform: translate(-50%. -50%);
+  -ms-transform: translate(-50%. -50%);
+  -o-transform: translate(-50%. -50%);
+}
+
+/* start Quiz Button Styling  */
+
+.start-btn button{
+   font-size: 25px;
+   font-weight: 500;
+   color: var(--dgreen);
+   padding: 15px 30px;
+   outline: none;
+   border: none;
+   border-radius: 50px;
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   -ms-border-radius: 50px;
+   -o-border-radius: 50px;
+   background: white;
+   cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root{
+  --lgreen: #92E6A7;
+  --dgreen: #10451D;
+}
