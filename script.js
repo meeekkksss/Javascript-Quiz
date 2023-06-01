@@ -1,29 +1,29 @@
-// 1. You will have only <span>15 seconds</span> per each question. 
-// 2. Once you select your answer, you can't reselect. 
-// 3. You can't select any option once time goes off. 
-// 4. You can't exit from the Quiz while you're playing. 
-// 5. You'll get points on the basis of your correct answers. 
+// 1. You will have only <span>15 seconds</span> per each question.
+// 2. Once you select your answer, you can't reselect.
+// 3. You can't select any option once time goes off.
+// 4. You can't exit from the Quiz while you're playing.
+// 5. You'll get points on the basis of your correct answers.
 
-// Which of the following fuction of String object returns the calling string value converted to upper case while respecting the current locale? 
+// Which of the following fuction of String object returns the calling string value converted to upper case while respecting the current locale?
 // A -toLocaleUpperCase()
 // B -toUpperCase()
 // C -toString()
 // D -substring()
-// Answer:A Explanation: toLocaleUpperCase()-Returns the calling string calue converted to uppercase while respecting the current locale. 
+// Answer:A Explanation: toLocaleUpperCase()-Returns the calling string calue converted to uppercase while respecting the current locale.
 
 // Which of the following fuction of Array object calls a function for each element in the array?
 // A -concat()
 // B -every()
 // C -filter()
 // D -forEach()
-// Answer:D Explanation: forEach() -Calls a function for each element in the array 
+// Answer:D Explanation: forEach() -Calls a function for each element in the array
 
 // Inside which element do you put Javascript?
 // A - <var>
 // B - <script>
 // C - <section>
 // D - <code>
-// Answer: B 
+// Answer: B
 
 // Which of the following is not a primitive data type in JavaScript?
 // A - Number
