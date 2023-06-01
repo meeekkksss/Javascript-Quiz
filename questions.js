@@ -1,3 +1,5 @@
+// variables 
+
 const questions = [
   {
     question:
@@ -7,7 +9,7 @@ const questions = [
       { text: "toUpperCase()", correct: false },
       { text: "toString()", correct: false },
       { text: "substring()", correct: false },
-    ],
+    ]
   },
   {
     question:
@@ -17,7 +19,7 @@ const questions = [
       { text: "every()", correct: false },
       { text: "filter()", correct: false },
       { text: "forEach()", correct: true },
-    ],
+    ]
   },
   {
     question: "Inside which element do you put Javascript?",
@@ -26,7 +28,7 @@ const questions = [
       { text: "<script>", correct: true },
       { text: "<section>", correct: false },
       { text: "<code>", correct: false },
-    ],
+    ]
   },
   {
     question:
@@ -36,7 +38,7 @@ const questions = [
       { text: "String", correct: false },
       { text: "Boolean", correct: false },
       { text: "Object", correct: true },
-    ],
+    ]
   },
   {
     question:
@@ -46,15 +48,18 @@ const questions = [
       { text: "===", correct: false },
       { text: "!=", correct: false },
       { text: "=<", correct: true },
-    ],
+    ]
   },
 ];
+
 const questionElement = document.getElementsByClassName("que-text");
 const answerButton = document.getElementsByClassName("option");
 const nextButton = document.getElementsByClassName("next-btn");
 
 let currentQuestionIndex = 0;
 let score = 0;
+
+// start quiz function 
 
 function startQuiz(){
   currentQuestionIndex = 0;
@@ -66,4 +71,11 @@ function showQuestion(){
   let currentQuestion = questions[currentQuestionIndex];
   let questionNo = currentQuestionIndex +1;
   questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+  currentQuestion.answers.forEach(answer => {
+    const button = document.createElement("button");
+    button.innerHTML = answer.text;
+    button.classList.add("btn")
+    answerButton.appendChild(button);
+  });
 }
